@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script src="Verification.js"></script>
+<script src="ClickerButton.js"></script>
+<link rel="stylesheet" href="Operator Style.css">
+
+<head>
+    <title>UAT Space Login</title>
+</head>
+
+<body>
+    <h1>
+        Welcome to The Operator Room. Where we operate...
+    </h1>
+    <br>
+    <p id="loginStatus" class="loginID">Status of login...</p>
+    <br>
+    <form id="credSubmit" onsubmit="return false">
+        Operator Name: <input type="text" id="OpName" /> <br>
+        Badge Number: <input type="number" id="BadgeNumber" /> <br>
+        <input type="submit" onclick="Verification();" />
+    </form>
+
+</body>
+
+</html>
